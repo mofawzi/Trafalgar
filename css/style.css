@@ -93,6 +93,12 @@ li {
   margin-top: 150px;
 }
 
+.showcase__dots {
+  top: 0;
+  left: 0;
+  float: left;
+}
+
 /* Showcase content */
 .showcase .container .showcase__content {
   display: table;
@@ -305,6 +311,12 @@ li {
 .customer {
   margin-top: 250px;
   color: #fff;
+}
+
+.customer__dots {
+  top: -100px;
+  right: -100px;
+  float: right;
 }
 
 .customer .container {
@@ -624,11 +636,3 @@ div.article__read img {
   color: #fff;
   border: 2px solid #fff;
 }
-
-/* .customer__heading h3::after {
-  content: " ";
-  border-bottom: 2px solid #000000;
-  display: block;
-  width: 14%;
-  margin-top: 26px;
-} */
